@@ -1,7 +1,62 @@
-# VIT-Grade-Guard
-A predictive grade analytics tool for students at VIT Bhopal.
+# 🛡️ VIT-Bhopal Grade Guard (Relative Analytics Edition)
 
-## Current Progress
-- [x] Step 1: Project Ideation & Scoping
-- [ ] Step 2: Core Python Logic (Next)
-- [ ] Step 3: User Interface Development
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Platform](https://img.shields.io/badge/platform-VITyarthi-orange)
+
+## 📖 Project Overview
+**Grade Guard** is a specialized Python analytics tool developed for students at **VIT Bhopal**. Navigating the **Relative Grading** system can be stressful; this tool eliminates the guesswork by providing a data-driven prediction of final grades based on real-time class performance.
+
+Unlike a standard GPA calculator, Grade Guard implements **Dual-Average Logic**, comparing individual scores against fluctuating class means for both Mid-Term and Term-End  examinations.
+
+---
+
+## ✨ Key Features
+* **Official Weightage Integration:** Hard-coded to match the 2026 assessment breakdown (30% Midterm, 40% Internals, 30% TEE).
+* **Relative Grading Simulation:** Predicts S, A, and B grades by calculating the "Z-Gap" between the user and the class average.
+* **Dual-Stage Tracking:** Handles different max marks for Mid-Term (50) and TEE (100) seamlessly.
+* **Performance Insights:** Provides automated feedback on whether your performance is "Above the Curve" or in the "Risk Zone."
+* **Data Persistence:** Automatically saves your final report to a local `.txt` file for future reference.
+
+---
+
+## 🛠️ Technical Implementation
+### The Logic Flow
+The project follows a modular functional approach:
+1.  **Input Module:** Captures Mid-term, Quiz, Assignment, Tutorial, and Attendance marks.
+2.  **Normalization Engine:** Converts raw marks into weighted percentages out of 100.
+3.  **Statistical Comparison:** Subtracts the User Total from the Class Average Total to determine the relative standing.
+4.  **Reporting:** Generates a summary and writes a permanent log file.
+
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Python 3.8 or higher installed on your machine.
+* A terminal or command prompt.
+
+### Installation & Usage
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/manthanawaya/VIT-GRADE-GUARD.git](https://github.com/manthanawaya/VIT-GRADE-GUARD.git)
+    ```
+2.  **Navigate to the Directory:**
+    ```bash
+    cd VIT-GRADE-GUARD
+    ```
+3.  **Run the Application:**
+    ```bash
+    python GRADE-GUARD.py
+    ```
+
+---
+
+## 📁 Project Structure
+```text
+VIT-GRADE-GUARD/
+├── GRADE-GUARD.py     # Main application logic
+├── README.md          # Project documentation (this file)
+├── my_results.txt     # Auto-generated report file
+└── .gitignore         # Files to be ignored by Git
