@@ -9,6 +9,18 @@
 Unlike a standard GPA calculator, Grade Guard implements **Dual-Average Logic**, comparing individual scores against fluctuating class means for both Mid-Term and Term-End  examinations.
 
 ---
+Problem Statement
+At VIT, many courses use relative grading, where your final grade depends not only on your marks but also on the distribution of marks in the class. Students often:
+1.Do not know how each component (MTE, TEE, assignments, quizzes, labs) contributes to the final grade.
+2.Struggle to understand how much they must score in upcoming evaluations to reach a target grade.
+3.Feel anxious because they cannot easily estimate their relative position in the course.
+
+VIT GRADE GUARD addresses this by providing a simple, offline, terminal-based tool that:
+
+1.Combines all evaluation components using real weightages.
+2.Simulates relative grading using class statistics.
+3.Gives clear feedback on current performance and possible grade outcomes.
+
 
 ## ✨ Key Features
 * **Official Weightage Integration:** Hard-coded to match the 2026 assessment breakdown (30% Midterm, 40% Internals, 30% TEE).
