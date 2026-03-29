@@ -10,6 +10,7 @@ Unlike a standard GPA calculator, Grade Guard implements **Dual-Average Logic**,
 
 ---
 Problem Statement
+
 At VIT, many courses use relative grading, where your final grade depends not only on your marks but also on the distribution of marks in the class. Students often:
 1.Do not know how each component (MTE, TEE, assignments, quizzes, labs) contributes to the final grade.
 2.Struggle to understand how much they must score in upcoming evaluations to reach a target grade.
